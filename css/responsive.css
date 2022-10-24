@@ -1,0 +1,798 @@
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+
+    /* Header Start */
+
+
+    .navbar{
+      position:fixed;
+      margin-bottom: 20px;
+      background:white;
+      top: 0;
+      left:-88%;
+      transition: left 0.5s;
+      
+    }
+
+    .navbar.active{
+      left:0px;
+      height:100%;
+      width: 88%; 
+      content: '+';
+      
+    }
+
+    .navbar .brand.active{
+      position: absolute;
+      top:20px;
+      margin-left: 43px;
+     
+    }
+
+    .navbar .star.active{
+      position:absolute;
+      top:300px;
+      margin-left: 45px;
+    }
+
+    .navbar > .nav-items{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: absolute;
+      top: 40px ;
+      
+    }
+
+    .navbar > .nav-items > .nav-item{
+      padding:10px 10px;
+      text-align: left;
+      text-transform: uppercase;
+     
+    }
+
+    .navbar #toggle-btn{
+      position: absolute;
+      left: 92%;
+      top:10px;
+      padding:5px -20px;
+      
+    }
+
+    .navbar #toggle-btn{
+      display: block;
+    }
+
+    #toggle-btn span{
+      width:30px;
+      height: 5px;
+      background: rgb(0, 0, 0);
+      display: block;
+      cursor: pointer;
+      margin: 4px 0px;
+
+    }
+
+
+      .header .brand{
+        margin-left: 130%;
+        display: block;
+        margin-top: 10px;
+      }
+
+      .header .action-button{
+        display: none !important;
+      }
+
+    
+      .header .star{
+        display: block;
+        margin-left: 176%;
+        margin-top: -20px;
+      
+      }
+      
+        /* Header End */
+
+
+
+  /****Hero-area Start****/
+
+  .hero-area .hero-image{
+    width: 100% ;
+    height: 633px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    }
+    
+    .hero-header{
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -1px;
+    padding-top: 80px !important;
+    color:white;
+    
+    
+    }
+    
+    .hero-para{
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 20px !important;
+    color:white;
+    
+    }
+    
+    .hero-btn{
+        background: #0065F2;
+        height: 36px;
+        width: 80px;  
+        color:white;
+        border: none;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 30px !important;
+    }
+    
+    .swiper-slide{
+        background-image: url("../images/mobile-hero-area.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%!important;
+        
+    }
+    
+    .swiper {
+        width: 100%;
+        height: 500px;
+    }
+ 
+    .swiper-pagination-horizontal{
+        margin-left: -10px !important;
+        bottom: 30px !important;
+    }
+    
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        
+        margin-left: 10px !important;
+    }
+    
+    .swiper-pagination-bullet {
+        width: 30px !important;
+        height: 4px !important;
+        background: white !important;
+        border-radius: 0 !important;
+        margin-right: 5px !important;
+        
+    }
+    .swiper-pagination-bullet-active{
+        background: #0065F2 !important;
+    }
+    
+    
+    .swiper-button-next, .swiper-button-prev {
+        position: absolute;
+        top: 95% !important;
+    
+    }
+
+    .swiper-button-next{
+        height: 30px !important;
+        width: 30px !important;
+        
+    }
+    .swiper-button-prev{
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+        right: 70px !important;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-prev {
+       
+        right: 20px !important;    
+    }
+    
+    .swiper-button-next:after, .swiper-button-prev:after {
+    display: none;
+    }
+    
+     /****Hero-area End****/
+
+
+/****Partner Start******/
+.partner-header{
+    margin: 40px 0 40px 0 !important;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+     }
+    
+     .partner-icon{
+        display: flex;
+        justify-content: space-around;
+        margin:20px 0 20px -10px;
+     }
+    
+     .partner .uber{
+        margin-left: -5px;
+     }
+    
+     .partner .airbnb{
+        margin-left:10px;
+     }
+
+
+     /****Partner End******/
+    
+    /***Details start*******/
+
+ .details-whole{
+    margin: 80px 0 100px 0;
+ }
+ .details-para-video{
+    display: flex;
+    flex-direction: column-reverse;
+ }
+
+.details-header{
+font-weight: 700;
+font-size: 32px;
+color: #000000;
+margin-top: 235px;
+}
+
+.details-para{
+font-weight: 300;
+font-size: 16px;
+color: #000000;
+margin: 20px 0 40px 0;
+ }
+
+.details-btn{
+    background: #0065F2;
+    height: 48px;
+    width: 100%;
+    color:white;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom:80px;
+}
+.details-image{
+  width: 100% !important;
+}
+.details .big-image{ 
+   width: 85%;
+}
+.small-image{
+    position: relative;
+    top: -200px;
+    width: 55%;
+    
+}
+  /***Details End *******/
+
+
+/*****Video Start*****/
+.details-header {
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+  margin-top: -170px;
+}
+
+.video-para{
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+margin-top: 80px;;
+}
+
+.video-link{
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #0065F2;
+  margin-bottom: 25px;
+}
+
+.video-wrapper{
+text-align: center;
+
+}
+
+.play-btn{
+  position: relative;
+  margin-top: -28%;
+}
+
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+  color: red !important;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 40;
+  position: relative !important;
+}
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close:hover{
+  transform: scale(1.2) !important;
+  transition: ease-in-out !important;
+}
+
+.video-para1{
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin:20px 0 80px 0;
+  }
+  
+ /*****Video End*****/
+
+   /******* Chart1 Start *******/
+   .chart-image{
+    width: 100%;
+}
+
+.chart-header{
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -0.5px;
+margin-top: 28px;
+
+}
+.chart-para{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+margin:20px 0 40px 0;
+}
+
+.chart-whole{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.feature-header{
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+}
+
+.feature-para{
+font-size: 14px;
+line-height: 20px;
+}
+.feature-one-two{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+
+  /******* Chart1 End*******/
+
+/**** Chart2 Start *****/
+.chart-whole-two{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+}
+
+.chart-whole-two .chart-image{
+  margin-top:80px;
+}
+
+/**** Chart2 End *****/
+
+
+
+      /*******Tagline Start******/
+
+      .tagline .tagline-para{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        margin: 80px 0 12px 0;
+     }     
+    
+     .tagline .tagline-header{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -0.5px;
+        margin-bottom: 80px;
+     }
+    
+          /*******Tagline End******/
+    
+
+          
+       /*******Price Start******/
+
+.beginer{
+  height: 528px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), 0px 1px 4px rgba(0, 0, 0, 0.1) !important;
+  padding: 0 24px 0 32px;
+  
+}
+.personal{
+  height: 528px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), 0px 1px 4px rgba(0, 0, 0, 0.1) !important;
+  padding: 0 24px 0 32px;
+  margin-top: 20px;
+}
+.unlimited{
+  height: 528px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), 0px 1px 4px rgba(0, 0, 0, 0.1) !important;
+  padding: 0 24px 0 32px;
+  margin-top: 20px;
+
+}
+
+.price-header{
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: right;
+margin-bottom: 35px;
+}
+.dollar-per-month{
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+letter-spacing: -1px;
+}
+
+.per-month{
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+}
+
+.benifit-header{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+margin: 24px 0 16px 0;
+}
+.benifits{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+
+}
+
+.action{
+margin-top: 112px;
+text-align: center;
+background: #0065F2;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: white;
+border: none;
+width: 302px;
+height: 48px;
+padding: 0px !important;
+
+}
+
+.action2{
+  margin-top: 64px;
+}
+
+.action3{
+  margin-top: 36px;
+}
+
+.price-btn{
+  text-align: center;
+}
+
+.content{
+  position: absolute;
+  display: none;
+  top:0;
+  left: 0;
+  width: 100%;
+ 
+}
+
+.price .container{
+position: relative;
+top:0;
+left: 0;
+}
+
+.content.active{
+display: block;
+
+}
+
+
+
+.tabs{
+  margin-bottom: 3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.tabs li{
+  list-style: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+}
+.tabs li::after{
+  content:"";
+  position: absolute;
+  height:2px;
+  background: #0065F2;
+  transition: width .5s  ease-in;
+  bottom:-20%;
+  left:-3%;
+  width: 0%;
+
+}
+.tabs li.active{
+  color:#0065F2;
+}
+
+.tabs li.active::after{
+  width: 104%;
+
+}
+
+
+
+      /*******Price End******/
+
+
+        
+        /*******FAQ Start******/
+        
+        .faq-header{
+          margin:1736px 0 40px 0 !important;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 48px;
+          text-align: center;
+          letter-spacing: -0.5px;
+          text-align: center;
+           }
+          
+           .accordion{
+              width: 100%; 
+           }
+          
+           .accordion .content-box{
+              position: relative;
+              margin: 10px 10px;
+              border:1px solid rgba(0, 0, 0, 0.1);
+           }
+          
+           .accordion .content-box .label{
+              position:relative;
+              padding:10px 20px;
+              cursor: pointer;
+              font-weight: 600;
+              font-size: 16px ;
+              line-height: 36px;
+              
+           }
+          
+           .accordion .content-box .label::before{
+              content: '+';
+              position: absolute;
+              top:50%;
+              right:20px;
+              transform: translateY(-50%);
+              font-size: 28px;
+              color:#0065F2;
+           }
+          
+           .accordion .content-box.active .label::before{
+              content: '\2212';
+          
+           }
+          
+           .accordion .content-box .contents{
+              position: relative;
+              height: 0;
+              overflow:hidden;
+              transition: 0.5s;
+             
+           }
+          
+           .accordion .content-box.active .contents{
+              width: 100%;
+              height: fit-content;
+              padding: 20px;
+              font-weight: 300;
+              font-size: 14px;
+              line-height: 26px;
+           }
+          
+          
+  
+      /*******FAQ End******/
+  
+/***** Footer Header Start*****/
+
+
+.footer-long-heading{
+  margin:0px 0 24px 0 !important;
+  font-weight: 700 !important;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  }
+  
+  .action-link{
+  margin-bottom: 84px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #0065F2;
+  text-decoration: none;
+  }
+  
+  .footer-whole{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .pages{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      padding: 0px; 
+  }
+  
+  .pages li{
+      list-style: none;  
+      margin-top: 20px;
+       
+  }
+  
+  .pages li a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #000000;
+  margin-top: 20px;
+  }
+  
+  
+  .icons{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      padding-left:0 !important;
+      margin: 0;
+      
+  }
+  
+  .icons li{
+      list-style: none; 
+      
+  }
+  
+  .icons li a i{
+      text-decoration: none;
+      font-size:24px;
+      color: #000000;
+      
+  }
+  
+  .pages-icons{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 38px;
+    
+  }
+  .copywrite-privacy-terms{
+      margin:40px 0 20px 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 0;
+      
+  }
+  .copywrite-privacy-terms li{
+      list-style: none;
+      margin-bottom: 20px !important;
+      padding-left: 0;
+  }
+  .copywrite-privacy-terms .copywrite{
+    margin: 0;
+    padding: 0;
+  }
+  .copywrite-privacy-terms li p, .copywrite-privacy-terms li a {
+      font-size: 14px;
+      color: #000000;
+      text-decoration: none;
+        
+  }
+
+  /***** Footer Header End*****/
+    
+
+  }
